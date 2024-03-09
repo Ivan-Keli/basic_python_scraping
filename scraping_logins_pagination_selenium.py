@@ -50,3 +50,4 @@ with open("scraped_quotes_pagination_selenium.csv", "w", newline='', encoding='u
 
 # Close the browser
 page_to_scrape.quit()
+#UPDATED
