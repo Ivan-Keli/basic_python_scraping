@@ -33,3 +33,4 @@ for quote, author in zip(quotes, authors):
     writer.writerow([quote.text, author.text])
 #CLOSE THE CSV FILE
 file.close()
+# UPDATED
