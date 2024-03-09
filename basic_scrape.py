@@ -20,3 +20,4 @@ authors = soup.findAll('small', attrs={"class":"author"})
 #AND PRINT AND FORMAT THE RESULTS
 for quote, author in zip(quotes, authors):
     print(quote.text + "-" + author.text)
+# UPDATED
